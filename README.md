@@ -14,8 +14,6 @@ src/main/java/com/craftinginterpreters/lox/
 docs/
   wiring-notes.md      The small additions needed elsewhere (TokenType,
                         Scanner, Expr.java) for these two files to compile
-answers.pdf            Write-up of all six challenges, including the
-                        design-question justifications
 ```
 
 This repo only contains the two files that changed plus the AST/token
@@ -46,8 +44,8 @@ additions they depend on — it assumes you already have the rest of jlox
 3. **Division by zero** — raises a runtime error rather than producing
    `Infinity`/`NaN`.
 
-See `answers.pdf` for the full write-up, including the two challenges
-that ask for a design justification rather than just code.
+The full write-up, including the two challenges
+that ask for a design justification rather than just code, is submitted separately.
 
 ## Building
 
